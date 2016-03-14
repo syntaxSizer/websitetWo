@@ -1,0 +1,46 @@
+#all {
+    border-left:200px solid;
+    border-right: 200px solid;
+}
+#HEAD {
+    border-color: #363434;
+    background-color: #363434;
+    border: 0 solid;
+    padding: 3px;
+    
+}
+#HEAD #GNOME{
+    color: yellow;
+    font-size:50px;
+    padding-top:40px;
+    padding-left:17px;
+    padding-bottom:17px; 
+}
+
+#HEAD #text{
+    
+    font-size: 15px;
+    color:white;
+    float: right;
+}
+#HEAD #text a{
+    text-decoration: none;
+    color:white;
+    
+}
+#pic {
+    background-image: url(assets/big_img.jpg);
+    background-repeat: no-repeat;
+    font-size: 13px;
+    
+    
+}
+#pic #semply{
+    border-style: solid;
+    padding-left:17px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 15px;
+    font-family:sans-serif;
+    padding-right: 10px;
+}
