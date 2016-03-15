@@ -82,14 +82,14 @@
     
 }
 #tabla{
-
+    column-width: 
     border-collapse: collapse;
      border:solid 19px ;
     background: white;
     border-top-color: azure;
     border-bottom:0;
-    border-left-color: white;
-    border-right-color: white;
+    border-left: 0;
+    border-right:0;
     width: 100%;
     
 
@@ -102,7 +102,10 @@
     border-color: white;
     height: 180px;
     width:100%
-    
+}
+#box p{
+    display: inline;
+    text-align: center;
     
 }
 
@@ -110,8 +113,7 @@
     display: block;
     padding:19px;
     border: 12px solid;
-    width: 39%;
-    color: whit;
+    color: white;
 }
  #marker #img{
     padding-left:40px;
@@ -121,7 +123,7 @@
     font-size: 9px;
     color:#a8a2a2;
     text-align:center;
-    padding-left:px;
+    
     
 }
 #marker h3{
@@ -131,8 +133,7 @@
     display: block;
     padding:19px;
     border: 12px solid;
-    width: 39%;
-    color: whit;
+    color: white;
     
 }
 #screw #img{
@@ -142,6 +143,19 @@
 #screw h3{
     padding-left:25px;
 }
+#screw p{
+    display:inline;
+    font-size: 9px;
+    color:#a8a2a2;
+    text-align:center;
+    
+}
+#envelop{
+    display: block;
+    padding:19px;
+    border: 12px solid;
+    color: white;
+}
 #envalop h3{
     padding-right: 25px;
     
@@ -150,6 +164,14 @@
     padding-left:20px; 
     
 }
+#envelop p{
+    display:inline;
+    font-size: 9px;
+    color:#a8a2a2;
+    text-align:center;
+    
+}
+
 #box1 {
     align-items: center
     border-top: 19px solid;
