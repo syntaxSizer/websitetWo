@@ -121,7 +121,7 @@
 }
 #marker p{
     display: inline;
-    font-size: 9px;
+    font-size: 14px;
     color:#a8a2a2;
     text-align:center;
     
@@ -146,7 +146,7 @@
 }
 #screw p{
     display:inline;
-    font-size: 9px;
+    font-size: 14px;
     color:#a8a2a2;
     text-align:center;
     
@@ -167,14 +167,33 @@
 }
 #envelop p{
     display:inline;
-    font-size: 9px;
+    font-size: 14px;
     color:#a8a2a2;
     text-align:center;
     
 }
 
-#box1 {
-    align-items: center
-    border-top: 19px solid;
+#box1 #right {
+    float: right;
+    border:solid 19px;
     border-color: azure;
-    height: 180px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+#box1 #left{
+    border: solid 19px;
+    border-left: 0;
+    border-color: azure;
+    border-bottom: 0;
+    padding-top: 44px;
+    padding-left: 30px;
+    padding-bottom: 44px;
+}
+
+#box1 #left p{
+    font-size: 14px;
+    color:#a8a2a2;
+    
+}
