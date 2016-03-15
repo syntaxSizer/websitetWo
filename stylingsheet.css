@@ -81,25 +81,77 @@
     color: white;
     
 }
+#tabla{
+
+    border-collapse: collapse;
+     border:solid 19px ;
+    background: white;
+    border-top-color: azure;
+    border-bottom:0;
+    border-left-color: white;
+    border-right-color: white;
+    width: 100%;
+    
+
+}
+
 
 #box{
+
     border-top: 19px solid;
-    border-color: azure;
+    border-color: white;
     height: 180px;
+    width:100%
+    
     
 }
-#box #marker{
+
+#marker{
     display: block;
     padding:19px;
     border: 12px solid;
-    width: 23%;
+    width: 39%;
+    color: whit;
 }
-#box #marker #img{
+ #marker #img{
     padding-left:40px;
 }
-#box #marker p{
-    font-size: 12px;
+#marker p{
+    display: inline;
+    font-size: 9px;
     color:#a8a2a2;
-    text-align: center;
+    text-align:center;
+    padding-left:px;
     
 }
+#marker h3{
+    padding-left:25px;
+}
+#screw {
+    display: block;
+    padding:19px;
+    border: 12px solid;
+    width: 39%;
+    color: whit;
+    
+}
+#screw #img{
+     padding-left:40px;
+    
+}
+#screw h3{
+    padding-left:25px;
+}
+#envalop h3{
+    padding-right: 25px;
+    
+}
+#envelop #img{
+    padding-left:20px; 
+    
+}
+#box1 {
+    align-items: center
+    border-top: 19px solid;
+    border-color: azure;
+    height: 180px;
