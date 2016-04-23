@@ -91,21 +91,8 @@ border-right:173px solid;
     border-right: 0;
     border-bottom: 0;
 }
-#box1 #left {
-    border: solid 19px;
-    border-left: 0;
-    border-color: azure;
-    border-bottom-width: 12px;
-    border-bottom-color: white;
-    padding-top: 44px;
-    margin-top: 44px;
-    padding-left: 30px;
-    margin-left: 30px;
-    padding-bottom: 44px;
-    margin-bottom: 44px;
-}
-#box1 #left p {
-    font-size: 14px;
+#box1 p {
+    font-size: 1.5em;
     color: #a8a2a2;
 }
 #box2 #boots {
@@ -191,4 +178,13 @@ border-right:173px solid;
 }
 #GNOME {
     color: yellow;
+}
+
+.img {
+width:90%;
+
+}
+
+.pad {
+    padding: 60px;
 }
