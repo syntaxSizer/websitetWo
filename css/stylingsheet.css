@@ -3,18 +3,7 @@
 border-left:173px solid;
 border-right:173px solid;
 
-}
-.HEAD {
-    /*    border-color: #363434;*/
 
-    background-color: #363434;
-    /*    color: yellow;*/
-    /*    font-size: 50px;*/
-}
-#HEAD h1 {
-    padding: 15px;
-    font-size: 7em;
-}
 #HEAD #text a {
     text-decoration: none;
     color: white;
@@ -23,24 +12,16 @@ border-right:173px solid;
     border-top: solid 25px #F2F3EC;
     background-image: url(../assets/big_img.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 90%;
+    background-size: cover;
+    height: 50vw;
+    width: 100%;
 }
 #pic #semply {
-    /*    border-style: solid 5px #b2a3a3;*/
-
     padding-top: 17px;
-    /*    font-style: italic;*/
-
-    font-size: 2em;
+    font-size: 3vw;
 }
 #marketing {
-    /*    padding-left: 10px;*/
-    /*    padding-bottom: 127px;*/
-    /*    padding-right: -5px;*/
-    /*    width: 28%;*/
-
-    font-size: 1.1em;
+    font-size: 1.4vw;
     font-style: italic;
 }
 #post {
@@ -146,4 +127,26 @@ h6 {
 }
 .footer {
     height: 230px;
+}
+.title {
+    background-color: #37373C;
+}
+#text {
+    font-size: 1.5em;
+    color: #B5B5B5;
+}
+#text a {
+    color: white;
+}
+
+
+
+.head h1{
+    padding-top: 12px;
+    font-size: 9vw;
+    color: yellow;
+}
+
+.logs {
+    width: 20%;
 }
