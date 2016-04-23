@@ -91,18 +91,6 @@ border-right:173px solid;
     font-size: 14px;
     color: #a8a2a2;
 }
-.fo {
-    border: solid 19px azure;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0;
-}
-#footer {
-    background-color: #393434;
-    border: solid 19px;
-    border-top-width: 38px;
-    color: #393434;
-}
 #copyright {
     font-size: 1.5em;
     color: #baba1c;
@@ -115,7 +103,6 @@ border-right:173px solid;
 .row {
     max-width: 1350px;
 }
-.border {}
 .text {
     border-top: 25px solid #F2F3EC;
     text-align: center;
@@ -123,7 +110,7 @@ border-right:173px solid;
 .row {
     max-width: 1300px;
 }
-#GNOME {
+#GNOME h1 {
     color: yellow;
 }
 .img {
@@ -155,4 +142,8 @@ h6 {
 }
 #copyright a {
     color: #baba1c;
+    display: inline;
+}
+.footer {
+    height: 230px;
 }
