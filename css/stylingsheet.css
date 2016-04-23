@@ -1,58 +1,50 @@
-#all {
-    border-left:173px solid;
-    border-right:173px solid;
+/*#all {*/
+
+border-left:173px solid;
+border-right:173px solid;
+
 }
-#HEAD {
-    border-color: #363434;
+.row {
+    /*    border-color: #363434;*/
+
     background-color: #363434;
-    display: in
-
-
-
-}
-#HEAD #GNOME{
     color: yellow;
-    font-size:50px;
-    padding-top:40px;
-    margin-top: 40px
-    padding-left:17px;
-    margin-left: 17px;
-    padding-bottom:17px;
-    margin-bottom: 17px
-    padding-right: -5px;
-    margin-right: -5px;
-    width:39%
+    font-size: 50px;
 }
 
-
-#HEAD #text{
-
-    display:block;
-    float: right;
-    height: 1px;
-    color:whit;
-    padding-bottom:10px;
-    font-size: 11px
+/*#HEAD #GNOME {*/
+padding-top: 40px;
+margin-top: 40px padding-left: 17px;
+margin-left: 17px;
+padding-bottom: 17px;
+margin-bottom: 17px padding-right: -5px;
+margin-right: -5px;
+width: 39%
 }
-#HEAD #text a{
+
+/*#HEAD #text {*/
+display: block;
+float: right;
+height: 1px;
+color: whit;
+padding-bottom: 10px;
+font-size: 11px
+}
+#HEAD #text a {
     text-decoration: none;
-    color:whit;
-
-
+    color: whit;
 }
 #pic {
-    background-image: url(big_img.jpg);
+    background-image: url(../assets/big_img.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     font-size: 13px;
-
-
-
 }
-#pic #semply{
+#pic #semply {
     border-style: solid 5px #b2a3a3;
     border-top: 19px solid;
     border-color: azure;
-    padding-left:17px;
+    padding-left: 17px;
     padding-top: 17px;
     padding-bottom: 0;
     font-size: 19px;
@@ -60,140 +52,119 @@
     padding-right: 10px;
 }
 #marketing {
-    padding-left:10px;
-    padding-bottom:127px;
+    padding-left: 10px;
+    padding-bottom: 127px;
     padding-right: -5px;
-    width:28%;
+    width: 28%;
     font-size: 7px;
 }
-
-#post{
+#post {
     border-top: 19px solid;
     border-color: azure;
     padding: 20px;
-
 }
-#post p{
-    font-size:14px;
+#post p {
+    font-size: 14px;
     color: #a8a2a2
 }
-#button{
+#button {
     border: 7px solid;
     background-color: #1d1b1b;
     border-color: #1d1b1b;
-    border-radius:180px;
+    border-radius: 180px;
     color: white;
-
 }
-#tabla{
-    column-width:
-    border-collapse: collapse;
-     border:solid 19px ;
+#tabla {
+    column-width: border-collapse: collapse;
+    border: solid 19px;
     background: white;
     border-top-color: azure;
-    border-bottom:0;
+    border-bottom: 0;
     border-left-width: 14px;
     border-left-color: white;
-    border-right:0;
+    border-right: 0;
     width: 100%;
-
-
 }
-
-
-#box{
-
+#box {
     border-top: 19px solid;
     border-color: white;
     height: 180px;
-    width:100%
+    width: 100%
 }
-#box p{
+#box p {
     display: inline;
     text-align: center;
-
 }
-
-#marker{
+#marker {
     display: block;
-    padding:19px;
+    padding: 19px;
     border: 12px solid;
     color: white;
 }
- #marker #img{
-    padding-left:40px;
+#marker #img {
+    padding-left: 40px;
 }
-#marker p{
+#marker p {
     display: inline;
     font-size: 14px;
-    color:#a8a2a2;
-    text-align:center;
-
-
+    color: #a8a2a2;
+    text-align: center;
 }
-#marker h3{
-    padding-left:25px;
+#marker h3 {
+    padding-left: 25px;
 }
 #screw {
     display: block;
-    padding:19px;
+    padding: 19px;
     border: 12px solid;
     color: white;
-
 }
-#screw #img{
-     padding-left:40px;
-
+#screw #img {
+    padding-left: 40px;
 }
-#screw h3{
-    padding-left:25px;
+#screw h3 {
+    padding-left: 25px;
 }
-#screw p{
-    display:inline;
+#screw p {
+    display: inline;
     font-size: 14px;
-    color:#a8a2a2;
-    text-align:center;
-
+    color: #a8a2a2;
+    text-align: center;
 }
-#envelop{
+#envelop {
     display: block;
-    padding:19px;
+    padding: 19px;
     margin: 19px;
     border: 12px solid;
     color: white;
 }
-#envalop h3{
+#envalop h3 {
     padding-right: 25px;
     margin-right: 25px;
-
 }
-#envelop #img{
-    padding-left:20px;
+#envelop #img {
+    padding-left: 20px;
     margin-left: 20px;
-
 }
-#envelop p{
-    display:inline;
+#envelop p {
+    display: inline;
     font-size: 14px;
-    color:#a8a2a2;
-    text-align:center;
-
+    color: #a8a2a2;
+    text-align: center;
 }
-
 #box1 #right {
     float: right;
-    border:solid 19px;
+    border: solid 19px;
     border-color: azure;
     border-left: 0;
     border-right: 0;
     border-bottom: 0;
 }
-
-#box1 #left{
+#box1 #left {
     border: solid 19px;
     border-left: 0;
     border-color: azure;
-    border-bottom-width:12px;
+    border-bottom-width: 12px;
     border-bottom-color: white;
     padding-top: 44px;
     margin-top: 44px;
@@ -202,33 +173,26 @@
     padding-bottom: 44px;
     margin-bottom: 44px;
 }
-
-#box1 #left p{
+#box1 #left p {
     font-size: 14px;
-    color:#a8a2a2;
-
+    color: #a8a2a2;
 }
-
-#box2 #boots{
-    border:solid 19px azure;
-    border-left:0;
+#box2 #boots {
+    border: solid 19px azure;
+    border-left: 0;
     border-right: 0;
     border-bottom: 0;
 }
-#boots #text{
+#boots #text {
     float: right;
     padding-top: 26px;
     margin-top: 26px;
 }
-#text p{
+#text p {
     font-size: 14px;
     color: #a8a2a2;
 }
-
-
-
-
-.adver{
+.adver {
     display: block;
     border: solid 19px;
     border-bottom-width: 31px;
@@ -236,56 +200,50 @@
     border-bottom-color: #50ef50;
     border-left: 0;
     border-right: 0
-
 }
-#ad{
+#ad {
     display: block;
-    border:solid 19px #50ef50;
+    border: solid 19px #50ef50;
     border-top-width: 35px;
-
-
 }
-#ad p{
+#ad p {
     background-color: #50ef50;
     font-family: fantasy;
     font-size: 14px;
     color: white;
 }
-
 #text2 {
-    border: solid 19px azure ;
+    border: solid 19px azure;
     border-left: 0;
     border-right: 0;
-    border-bottom-width:0;
+    border-bottom-width: 0;
 }
-
-#text2 h3{
+#text2 h3 {
     padding: 13px;
     margin: 13px;
 }
-#text2 p{
+#text2 p {
     font-size: 13px;
     color: #a8a2a2;
     padding: 10px;
     margin: 10px;
-
 }
 .fo {
     border: solid 19px azure;
     border-left: 0;
-    border-right:0;
+    border-right: 0;
     border-bottom: 0;
 }
 #footer {
     background-color: #393434;
-    border: solid 19px ;
+    border: solid 19px;
     border-top-width: 38px;
     color: #393434;
 }
-#footer #copyright{
+#footer #copyright {
     color: #baba1c;
 }
-#footer a{
+#footer a {
     text-decoration: none;
     color: #baba1c
 }
