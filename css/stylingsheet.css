@@ -4,15 +4,14 @@ border-left:173px solid;
 border-right:173px solid;
 
 }
-.row {
-    /*    border-color: #363434;*/
-
+.HEAD{
+    border-color: #363434;
     background-color: #363434;
     color: yellow;
     font-size: 50px;
 }
 
-/*#HEAD #GNOME {*/
+#HEAD #GNOME {
 padding-top: 40px;
 margin-top: 40px padding-left: 17px;
 margin-left: 17px;
@@ -32,13 +31,14 @@ font-size: 11px
 }
 #HEAD #text a {
     text-decoration: none;
-    color: whit;
+    color: white;
 }
 #pic {
     background-image: url(../assets/big_img.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 13px;
+    background-size: contain;
+    height: 100%;
+
 }
 #pic #semply {
     border-style: solid 5px #b2a3a3;
@@ -246,4 +246,8 @@ font-size: 11px
 #footer a {
     text-decoration: none;
     color: #baba1c
+}
+
+.row {
+    max-width: 1350px;
 }
