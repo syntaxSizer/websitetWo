@@ -5,23 +5,15 @@ border-right:173px solid;
 
 }
 .HEAD {
-    border-color: #363434;
+    /*    border-color: #363434;*/
+
     background-color: #363434;
-    color: yellow;
+    /*    color: yellow;*/
     /*    font-size: 50px;*/
 }
 #HEAD h1 {
     padding: 15px;
     font-size: 7em;
-}
-
-/*#HEAD #text {*/
-display: block;
-float: right;
-height: 1px;
-color: whit;
-padding-bottom: 10px;
-font-size: 11px
 }
 #HEAD #text a {
     text-decoration: none;
@@ -36,8 +28,10 @@ font-size: 11px
 }
 #pic #semply {
     /*    border-style: solid 5px #b2a3a3;*/
+
     padding-top: 17px;
     /*    font-style: italic;*/
+
     font-size: 2em;
 }
 #marketing {
@@ -45,6 +39,7 @@ font-size: 11px
     /*    padding-bottom: 127px;*/
     /*    padding-right: -5px;*/
     /*    width: 28%;*/
+
     font-size: 1.1em;
     font-style: italic;
 }
@@ -63,9 +58,8 @@ font-size: 11px
     border-radius: 180px;
     color: white;
     font-size: 2em;
-    width: 12%;
+    width: 130px;
 }
-
 #box {
     border-top: 19px solid;
     border-color: white;
@@ -76,62 +70,18 @@ font-size: 11px
     display: inline;
     text-align: center;
 }
-#marker {
-    display: block;
-    padding: 19px;
-    border: 12px solid;
-    color: white;
-}
-#marker #img {
-    padding-left: 40px;
-}
 #marker p {
-    display: inline;
-    font-size: 14px;
+    font-size: 1em;
     color: #a8a2a2;
-    text-align: center;
-}
-#marker h3 {
-    padding-left: 25px;
-}
-#screw {
-    display: block;
-    padding: 19px;
-    border: 12px solid;
-    color: white;
-}
-#screw #img {
-    padding-left: 40px;
-}
-#screw h3 {
-    padding-left: 25px;
 }
 #screw p {
-    display: inline;
-    font-size: 14px;
+    font-size: 1em;
+    ;
     color: #a8a2a2;
-    text-align: center;
-}
-#envelop {
-    display: block;
-    padding: 19px;
-    margin: 19px;
-    border: 12px solid;
-    color: white;
-}
-#envalop h3 {
-    padding-right: 25px;
-    margin-right: 25px;
-}
-#envelop #img {
-    padding-left: 20px;
-    margin-left: 20px;
 }
 #envelop p {
-    display: inline;
-    font-size: 14px;
+    font-size: 1em;
     color: #a8a2a2;
-    text-align: center;
 }
 #box1 #right {
     float: right;
@@ -232,3 +182,13 @@ font-size: 11px
     max-width: 1350px;
 }
 .border {}
+.text {
+    border-top: 25px solid #F2F3EC;
+    text-align: center;
+}
+.row {
+    max-width: 1300px;
+}
+#GNOME {
+    color: yellow;
+}
