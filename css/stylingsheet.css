@@ -1,9 +1,6 @@
-/*#all {*/
-
-border-left:173px solid;
-border-right:173px solid;
-
-
+body {
+    font-family: "Roboto Condensed";
+}
 #HEAD #text a {
     text-decoration: none;
     color: white;
@@ -138,15 +135,11 @@ h6 {
 #text a {
     color: white;
 }
-
-
-
-.head h1{
+.head h1 {
     padding-top: 12px;
     font-size: 9vw;
     color: yellow;
 }
-
 .logs {
     width: 20%;
 }
