@@ -83,68 +83,13 @@ border-right:173px solid;
     font-size: 1em;
     color: #a8a2a2;
 }
-#box1 #right {
-    float: right;
-    border: solid 19px;
-    border-color: azure;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0;
-}
 #box1 p {
     font-size: 1.5em;
     color: #a8a2a2;
 }
-#box2 #boots {
-    border: solid 19px azure;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0;
-}
-#boots #text {
-    float: right;
-    padding-top: 26px;
-    margin-top: 26px;
-}
 #text p {
     font-size: 14px;
     color: #a8a2a2;
-}
-.adver {
-    display: block;
-    border: solid 19px;
-    border-bottom-width: 31px;
-    border-top-color: azure;
-    border-bottom-color: #50ef50;
-    border-left: 0;
-    border-right: 0
-}
-#ad {
-    display: block;
-    border: solid 19px #50ef50;
-    border-top-width: 35px;
-}
-#ad p {
-    background-color: #50ef50;
-    font-family: fantasy;
-    font-size: 14px;
-    color: white;
-}
-#text2 {
-    border: solid 19px azure;
-    border-left: 0;
-    border-right: 0;
-    border-bottom-width: 0;
-}
-#text2 h3 {
-    padding: 13px;
-    margin: 13px;
-}
-#text2 p {
-    font-size: 13px;
-    color: #a8a2a2;
-    padding: 10px;
-    margin: 10px;
 }
 .fo {
     border: solid 19px azure;
@@ -179,12 +124,29 @@ border-right:173px solid;
 #GNOME {
     color: yellow;
 }
-
 .img {
-width:90%;
-
+    width: 90%;
 }
-
 .pad {
     padding: 60px;
+}
+.advtis {
+    padding: 30px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #FDFFFD;
+    background-color: #43FF4F;
+}
+.belowad {
+    padding: 60px;
+    font-size: 1.5em;
+    color: #A4A4A4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #222;
 }
