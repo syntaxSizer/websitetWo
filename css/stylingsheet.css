@@ -103,8 +103,10 @@ border-right:173px solid;
     border-top-width: 38px;
     color: #393434;
 }
-#footer #copyright {
+#copyright {
+    font-size: 1.5em;
     color: #baba1c;
+    text-align: center;
 }
 #footer a {
     text-decoration: none;
@@ -138,6 +140,7 @@ border-right:173px solid;
     background-color: #43FF4F;
 }
 .belowad {
+    border-top: 25px solid #F2F3EC;
     padding: 60px;
     font-size: 1.5em;
     color: #A4A4A4;
@@ -149,4 +152,7 @@ h4,
 h5,
 h6 {
     color: #222;
+}
+#copyright a {
+    color: #baba1c;
 }
